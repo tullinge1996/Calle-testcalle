@@ -1,43 +1,66 @@
 body {
-  background-color: #b4b4b4
+  background-image: url(panda.jpeg.jpg);
+
+
+
+
 }
-nav{
-text-align: center;
-border: 2px solid black ;
-padding: 10px 10px 10px 10px;
-margin-left: 250px;
-margin-right: 250px;
-background-color: grey;
-}
-nav li{
-display: inline;
-font-style: italic;
-border: 2px solid;
-padding: 5px 5px 5px 5px;
-margin-right: 25px;
-}
-nav a{
-text-decoration: none;
-color: black;
-font-weight: bold;
+.header h1{
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 40px;
 }
 .header{
-margin-left: 250px;
-margin-right: 250px;
-font-style: italic;
-background-color: grey;
+  display: -webkit-flex;
+  display:flex;
+  background-color: grey;
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+
 }
-.para
-{
-background-color: white;
-  border: 2px solid black;
- height: 700px;
-  width: 1400px;
-  padding: 2px 2px 2px 2px;
+.container-1 {
+  display:flex;
   text-align: center;
-  margin-left: 247px;
-  margin-top: 25px;
+  height: 600px;
+}
+.container-1 div {
+  border: 1px solid black;
+  padding: 10px;
+
+}
+.box-1{
+  flex: 1;
+  order: 1;
+  background-color: grey;
+
+}
+.box-2{
+flex: 4;
+order: 2;
+background-color: white;
+border: 1px solid black;
+
+}
+.box-3{
+  flex: 4;
+  order: 3;
+  background-color: white;
+}
+.box-4{
+  flex:4;
+  order:4;
+  background-color: white;
 
 
-
+}
+.box-2 p{
+  text-align: left;
+}
+nav ul{
+  text-align: left;
+}
+.login {
+  display: column;
+  border: 1px solid black;
 }
